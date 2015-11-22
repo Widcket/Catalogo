@@ -1,0 +1,1 @@
+{"head":"<title>Catálogo</title>","body":"","js":"\nTemplate.body.addContent((function() {\n  var view = this;\n  return Spacebars.include(view.lookupTemplate(\"layout\"));\n}));\nMeteor.startup(Template.body.renderToDocument);\n","bodyAttrs":{}}

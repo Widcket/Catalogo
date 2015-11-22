@@ -1,0 +1,24 @@
+{
+ "definitions": {
+    "button": true,
+    "card": true,
+    "container": true,
+    "grid": true,
+    "header": true,
+    "icon": true,
+    "image": true,
+    "loader": true,
+    "modal": true,
+    "popup": true,
+    "rating": true,
+    "reset": true,
+    "site": true,
+    "transition": true,
+    "visibility": true,
+    "visit": true
+    },
+  "themes": {
+    "default": true,
+    "classic": true
+    }
+}

@@ -1,0 +1,17 @@
+<template name="layout">
+	<div class="ui left aligned container">
+	  <div class="ui stackable grid">
+			{{# each books}}
+				<div class="three wide computer only column">
+					{{> book}}
+				</div>
+				<div class="five wide tablet only column">
+					{{> book}}
+				</div>
+				<div class="five wide mobile only column">
+					{{> book}}
+				</div>
+		  	{{ /each }}
+		</div>
+	</div>
+</template>
