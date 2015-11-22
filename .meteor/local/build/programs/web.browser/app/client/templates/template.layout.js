@@ -4,17 +4,29 @@ Template["layout"] = new Template("Template.layout", (function() {
   var view = this;
   return HTML.DIV({
     "class": "ui left aligned container"
-  }, "\n	  ", HTML.DIV({
-    "class": "ui stackable grid"
+  }, "\n	    ", HTML.DIV({
+    "class": "computer only fifteen column ui stackable grid"
   }, "\n			", Blaze.Each(function() {
     return Spacebars.call(view.lookup("books"));
   }, function() {
     return [ "\n				", HTML.DIV({
-      "class": "three wide computer only column"
-    }, "\n					", Spacebars.include(view.lookupTemplate("book")), "\n				"), "\n				", HTML.DIV({
-      "class": "five wide tablet only column"
-    }, "\n					", Spacebars.include(view.lookupTemplate("book")), "\n				"), "\n				", HTML.DIV({
-      "class": "five wide mobile only column"
+      "class": "three wide column"
+    }, "\n					", Spacebars.include(view.lookupTemplate("book")), "\n				"), "\n		  	" ];
+  }), "\n		"), "\n		", HTML.DIV({
+    "class": "tablet only fifteen column ui stackable grid"
+  }, "\n			", Blaze.Each(function() {
+    return Spacebars.call(view.lookup("books"));
+  }, function() {
+    return [ "\n				", HTML.DIV({
+      "class": "five wide column"
+    }, "\n					", Spacebars.include(view.lookupTemplate("book")), "\n				"), "\n		  	" ];
+  }), "\n		"), "\n		", HTML.DIV({
+    "class": "mobile only fifteen column ui stackable grid"
+  }, "\n			", Blaze.Each(function() {
+    return Spacebars.call(view.lookup("books"));
+  }, function() {
+    return [ "\n				", HTML.DIV({
+      "class": "five wide column"
     }, "\n					", Spacebars.include(view.lookupTemplate("book")), "\n				"), "\n		  	" ];
   }), "\n		"), "\n	");
 }));

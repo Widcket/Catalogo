@@ -431,6 +431,17 @@
       "hash": "3a89e53c9823d0be7e21a16456df606c0f0bc6c1"
     },
     {
+      "path": "packages/pcel_loading.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/pcel_loading.js?f7945da0689adc7980e46a63f2b8d71b4d47625c",
+      "sourceMap": "packages/pcel_loading.js.map",
+      "sourceMapUrl": "/packages/f7945da0689adc7980e46a63f2b8d71b4d47625c.map",
+      "size": 34459,
+      "hash": "f7945da0689adc7980e46a63f2b8d71b4d47625c"
+    },
+    {
       "path": "packages/webapp.js",
       "where": "client",
       "type": "js",
@@ -598,20 +609,31 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/templates/template.layout.js?1b8e139cb55fa45c80c3d6fe141330f93234a902",
+      "url": "/app/client/templates/template.layout.js?070635225ae7377993a2e4e3bf16e53fba9df824",
       "sourceMap": "app/client/templates/template.layout.js.map",
-      "sourceMapUrl": "/app/client/templates/1b8e139cb55fa45c80c3d6fe141330f93234a902.map",
-      "size": 860,
-      "hash": "1b8e139cb55fa45c80c3d6fe141330f93234a902"
+      "sourceMapUrl": "/app/client/templates/070635225ae7377993a2e4e3bf16e53fba9df824.map",
+      "size": 1303,
+      "hash": "070635225ae7377993a2e4e3bf16e53fba9df824"
     },
     {
-      "path": "app/client/template.main.js",
+      "path": "app/client/templates/template.loading.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/template.main.js?d73747b8805f78d0d78d23cd650a4e38d2cd480d",
-      "sourceMap": "app/client/template.main.js.map",
-      "sourceMapUrl": "/app/client/d73747b8805f78d0d78d23cd650a4e38d2cd480d.map",
+      "url": "/app/client/templates/template.loading.js?b3f5304c61c4d69fe660eeedc524267b8dcc37c6",
+      "sourceMap": "app/client/templates/template.loading.js.map",
+      "sourceMapUrl": "/app/client/templates/b3f5304c61c4d69fe660eeedc524267b8dcc37c6.map",
+      "size": 168,
+      "hash": "b3f5304c61c4d69fe660eeedc524267b8dcc37c6"
+    },
+    {
+      "path": "app/client/templates/template.main.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/templates/template.main.js?d73747b8805f78d0d78d23cd650a4e38d2cd480d",
+      "sourceMap": "app/client/templates/template.main.js.map",
+      "sourceMapUrl": "/app/client/templates/d73747b8805f78d0d78d23cd650a4e38d2cd480d.map",
       "size": 199,
       "hash": "d73747b8805f78d0d78d23cd650a4e38d2cd480d"
     },
@@ -660,39 +682,6 @@
       "hash": "8a901d7153aa4104dcd28b8c155e7565ab0459d4"
     },
     {
-      "path": "app/client/definitions/modules/modal.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/app/client/definitions/modules/modal.js?6b33d4a438f5a80c2226d6feabe2ae53c04373c9",
-      "sourceMap": "app/client/definitions/modules/modal.js.map",
-      "sourceMapUrl": "/app/client/definitions/modules/6b33d4a438f5a80c2226d6feabe2ae53c04373c9.map",
-      "size": 58468,
-      "hash": "6b33d4a438f5a80c2226d6feabe2ae53c04373c9"
-    },
-    {
-      "path": "app/client/definitions/modules/popup.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/app/client/definitions/modules/popup.js?a0102e1a0a0d94999c0ac8e8b118296d8864c435",
-      "sourceMap": "app/client/definitions/modules/popup.js.map",
-      "sourceMapUrl": "/app/client/definitions/modules/a0102e1a0a0d94999c0ac8e8b118296d8864c435.map",
-      "size": 95162,
-      "hash": "a0102e1a0a0d94999c0ac8e8b118296d8864c435"
-    },
-    {
-      "path": "app/client/definitions/modules/rating.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/app/client/definitions/modules/rating.js?af7e1af39348248c7a8615e8894f56efc5667779",
-      "sourceMap": "app/client/definitions/modules/rating.js.map",
-      "sourceMapUrl": "/app/client/definitions/modules/af7e1af39348248c7a8615e8894f56efc5667779.map",
-      "size": 29706,
-      "hash": "af7e1af39348248c7a8615e8894f56efc5667779"
-    },
-    {
       "path": "app/client/definitions/modules/transition.js",
       "where": "client",
       "type": "js",
@@ -704,26 +693,37 @@
       "hash": "ea5673785c8a32313c9632f32ce09c0d12247bb8"
     },
     {
-      "path": "app/client/helpers.js",
+      "path": "app/client/templates/helpers/layout.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/helpers.js?ace44d267a3cc67d54b4701b019a9435231538ea",
-      "sourceMap": "app/client/helpers.js.map",
-      "sourceMapUrl": "/app/client/ace44d267a3cc67d54b4701b019a9435231538ea.map",
+      "url": "/app/client/templates/helpers/layout.js?76b6d40053b63894fc9e17fdb12382684b722b0a",
+      "sourceMap": "app/client/templates/helpers/layout.js.map",
+      "sourceMapUrl": "/app/client/templates/helpers/76b6d40053b63894fc9e17fdb12382684b722b0a.map",
       "size": 924,
-      "hash": "ace44d267a3cc67d54b4701b019a9435231538ea"
+      "hash": "76b6d40053b63894fc9e17fdb12382684b722b0a"
+    },
+    {
+      "path": "app/client/templates/helpers/loading.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/templates/helpers/loading.js?38cd2609ad3ddd7ba0b0359bb03b03ff0e9371cb",
+      "sourceMap": "app/client/templates/helpers/loading.js.map",
+      "sourceMapUrl": "/app/client/templates/helpers/38cd2609ad3ddd7ba0b0359bb03b03ff0e9371cb.map",
+      "size": 1904,
+      "hash": "38cd2609ad3ddd7ba0b0359bb03b03ff0e9371cb"
     },
     {
       "path": "merged-stylesheets.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?cdac296ebfa09d97260dc9c49673dc48f50c04dc",
+      "url": "/merged-stylesheets.css?996e04920b781842a66511e720f995cd2963cb16",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/cdac296ebfa09d97260dc9c49673dc48f50c04dc.map",
-      "size": 1297057,
-      "hash": "cdac296ebfa09d97260dc9c49673dc48f50c04dc"
+      "sourceMapUrl": "/996e04920b781842a66511e720f995cd2963cb16.map",
+      "size": 1130111,
+      "hash": "996e04920b781842a66511e720f995cd2963cb16"
     },
     {
       "path": "packages/semantic_ui-css/themes/default/assets/fonts/icons.eot",

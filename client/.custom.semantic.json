@@ -1,6 +1,5 @@
 {
  "definitions": {
-    "button": true,
     "card": true,
     "container": true,
     "grid": true,
@@ -8,9 +7,6 @@
     "icon": true,
     "image": true,
     "loader": true,
-    "modal": true,
-    "popup": true,
-    "rating": true,
     "reset": true,
     "site": true,
     "transition": true,

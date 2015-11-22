@@ -22,3 +22,4 @@ flemay:less-autoprefixer
 semantic:ui-css
 semantic:ui-data
 semantic:ui
+pcel:loading

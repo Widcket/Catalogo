@@ -2,7 +2,12 @@
 	padding-top: 20px;
 }
 
-.ui.grid {
-  	margin-left: 35px;
-  	margin-right: -35px;
+.loading-message {
+  color: #333;
+  font-size: 25px;
+  font-family: Helvetica, Arial, Roboto, "Liberation Sans", sans-serif;
+}
+
+.sk-spinner-rotating-plane.sk-spinner {
+  background-color: #333;
 }

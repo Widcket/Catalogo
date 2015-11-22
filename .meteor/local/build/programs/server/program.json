@@ -623,6 +623,10 @@
       "path": "packages/semantic_ui.js"
     },
     {
+      "sourceMap": "packages/pcel_loading.js.map",
+      "path": "packages/pcel_loading.js"
+    },
+    {
       "sourceMap": "packages/livedata.js.map",
       "path": "packages/livedata.js"
     },
