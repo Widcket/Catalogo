@@ -1,22 +1,22 @@
 <template name="layout">
 	<div class="ui left aligned container">
-	    <div class="computer only fifteen column ui stackable grid">
+	    <div class="computer only ui five column stackable grid">
 			{{# each books}}
-				<div class="three wide column">
+				<div class="column">
 					{{> book}}
 				</div>
 		  	{{ /each }}
 		</div>
-		<div class="tablet only fifteen column ui stackable grid">
+		<div class="tablet only ui three column stackable grid">
 			{{# each books}}
-				<div class="five wide column">
+				<div class="column">
 					{{> book}}
 				</div>
 		  	{{ /each }}
 		</div>
-		<div class="mobile only fifteen column ui stackable grid">
+		<div class="mobile only ui one column stackable grid">
 			{{# each books}}
-				<div class="five wide column">
+				<div class="column">
 					{{> book}}
 				</div>
 		  	{{ /each }}

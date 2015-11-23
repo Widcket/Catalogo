@@ -1,1 +1,0 @@
-{"version":3,"sources":["meteor://💻app/client/helpers.js"],"names":[],"mappings":";;;;;;;;AAAA,QAAQ,CAAC,MAAM,CAAC,OAAO,CAAC;AACvB,MAAK,EAAE,YAAY;AAClB,SAAO,MAAM,CAAC,IAAI,EAAE,CAAC,KAAK,EAAE,CAAC;EAC7B;CACD,CAAC,CAAC,sE","file":"/client/helpers.js","sourcesContent":["Template.layout.helpers({\r\n\tbooks: function () {\r\n\t\treturn Libros.find().fetch();\r\n\t}\r\n});\r\n"]}

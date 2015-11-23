@@ -609,11 +609,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/templates/template.layout.js?070635225ae7377993a2e4e3bf16e53fba9df824",
+      "url": "/app/client/templates/template.layout.js?239b5dbfe88e984ceefc041af8c6c061d56f827c",
       "sourceMap": "app/client/templates/template.layout.js.map",
-      "sourceMapUrl": "/app/client/templates/070635225ae7377993a2e4e3bf16e53fba9df824.map",
-      "size": 1303,
-      "hash": "070635225ae7377993a2e4e3bf16e53fba9df824"
+      "sourceMapUrl": "/app/client/templates/239b5dbfe88e984ceefc041af8c6c061d56f827c.map",
+      "size": 1263,
+      "hash": "239b5dbfe88e984ceefc041af8c6c061d56f827c"
     },
     {
       "path": "app/client/templates/template.loading.js",
